@@ -7,6 +7,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  text-decoration: none;
 }
 
 .flex-container {
@@ -25,6 +26,11 @@ h1 {
   font-size: 24px;
 }
 
+h2 {
+  padding-bottom: 40px;
+  font-family: 'Playfair Display', serif;
+}
+
 ul a {
   color: #051033;
   padding: 15px;
@@ -33,4 +39,20 @@ ul a {
 
 ul {
   list-style: none;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: blue;
+  color: white;
+  font-family: 'Playfair Display', serif;
 }
